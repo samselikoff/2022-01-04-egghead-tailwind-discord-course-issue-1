@@ -66,6 +66,13 @@ export default function Server() {
             </div>
           ))}
         </div>
+
+        <div className="bg-[#292b2f] px-2 h-[52px] flex items-center justify-between">
+          <p className="text-sm font-semibold text-white">username</p>
+          <div>
+            <p className="text-sm font-semibold text-white">Settings</p>
+          </div>
+        </div>
       </div>
 
       <div className="flex flex-col flex-1 flex-shrink min-w-0 bg-gray-700">
